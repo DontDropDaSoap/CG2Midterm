@@ -5480,7 +5480,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 0.01
   far clip plane: 28
   field of view: 60.000004
   orthographic: 0
@@ -5508,8 +5508,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314000230}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.04329804, y: -0.8822865, z: -0.082831934, w: 0.4613402}
-  m_LocalPosition: {x: -139.46494, y: 41.644634, z: 162.29613}
+  m_LocalRotation: {x: -0.022592388, y: -0.20840424, z: -0.0048156083, w: 0.97777}
+  m_LocalPosition: {x: -151.11368, y: 42.159378, z: 149.69453}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31848,7 +31848,7 @@ GameObject:
   - component: {fileID: 1706804449}
   - component: {fileID: 1706804448}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: AncientMagic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31878,7 +31878,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e400f6be7ae2d0244afdf71732684d78, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35717,7 +35717,7 @@ ParticleSystem:
       properties: 0
       emitProbability: 1
   LightsModule:
-    enabled: 0
+    enabled: 1
     ratio: 0
     light: {fileID: 0}
     randomDistribution: 1
