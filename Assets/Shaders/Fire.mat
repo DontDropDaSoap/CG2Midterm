@@ -53,17 +53,18 @@ Material:
     m_Floats:
     - _Alpha: 2
     - _Alpha_Clip_Threshold: 0.15
-    - _Brightness: 8.74
+    - _Brightness: 20
     - _Flame_Height: 0.65
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0.5
     m_Colors:
     - _BG_Colour: {r: 0, g: 0.23278427, b: 1, a: 0}
-    - _Base_Colour: {r: 0, g: 1, b: 0.8223057, a: 0}
+    - _Base_Colour: {r: 0, g: 0.22123766, b: 1, a: 0}
     - _Highlights_Colour: {r: 0, g: 0.9276829, b: 1, a: 0}
     - _Scroll_Direction: {r: 0, g: -1, b: 0, a: 0}
     - _Scroll_Direction_A: {r: 0, g: -1, b: 0, a: 0}
     - _Scroll_Direction_B: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 3, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
